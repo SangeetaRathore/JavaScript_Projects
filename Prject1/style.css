@@ -28,6 +28,9 @@ li{
          padding: 10px;
          
 }
+#colorCode{
+         color: rgb(5, 97, 121);
+}
 a:hover{
          background-color: rgb(7, 107, 32);
          font-weight: 900;
