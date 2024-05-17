@@ -1,0 +1,92 @@
+*{
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+}
+
+
+body{
+         background-color: rgb(228, 225, 225); 
+}
+main{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         margin-top: 5rem; 
+         /* background-color: rgb(170, 24, 24);  */
+         
+}
+.title{
+         font-size: 3rem;
+         font-weight: 600;
+         text-decoration: underline;
+         margin: 1.3rem;
+
+}
+
+section{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         row-gap: 1rem;
+         padding: 10px;
+         border-radius: 20px;
+         width: 600px;
+         height: 550px;
+         background-color: rgb(97, 143, 127);
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image{
+         width: 150px;
+         height: 150px;
+         border-radius: 50%;
+         border: 3px solid black;
+}
+
+.name{
+         font-size: 2rem;
+         font-weight: 700;
+}
+.details{
+         text-align: center;
+         font-size: 21px;
+         font-weight: 300;
+}
+
+.job{
+         font-size: 1.7rem;
+         font-weight: 600; 
+}
+
+/* left and right button */
+.btn{
+         display: inline-block;
+         padding: 20px;
+}
+
+.btn:hover{
+         color: brown;
+}
+
+
+
+/*  down button */
+.random-btn{
+         border: 2px solid rgb(39, 39, 94);
+         background-color: rgb(118, 170, 204);
+         color: rgb(19, 9, 107);
+         font-size: 1rem;
+         font-weight: 700;
+         padding: 10px;
+         border-radius: 20px;
+}
+
+.random-btn:hover{
+         background-color: black;
+         color: white;
+         font-weight: 800;
+         font-size: 1.3rem;
+}
